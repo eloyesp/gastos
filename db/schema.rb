@@ -63,8 +63,9 @@ ActiveRecord::Schema.define(:version => 20111004023433) do
     t.integer  "product_id"
     t.integer  "quantity"
     t.integer  "unit_id"
-    t.decimal  "price",      :precision => 6, :scale => 4
+    t.decimal  "price",      :precision => 8, :scale => 2
     t.integer  "marca_id"
+    t.integer  "compra_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
