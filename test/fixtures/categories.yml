@@ -1,7 +1,5 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+verduleria:
+  name: $LABEL
 
-one:
-  name: MyString
-
-two:
-  name: MyString
+almacen:
+  name: $LABEL

@@ -1,9 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
-  name: MyString
-  category_id: 1
+mormones:
+  name: los $LABEL
+  category: verduleria
 
-two:
-  name: MyString
-  category_id: 1
+marcelo:
+  name: Lo de Marcelo
+  category: almacen

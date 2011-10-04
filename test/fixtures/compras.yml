@@ -2,8 +2,8 @@
 
 one:
   date: 2011-10-03
-  place_id: 1
+  place: marcelo
 
 two:
-  date: 2011-10-03
-  place_id: 1
+  date: 2011-10-04
+  place: mormones

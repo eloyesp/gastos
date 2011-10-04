@@ -1,15 +1,16 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
-  product_id: 1
-  quantity: 1
-  unit_id: 1
-  price: 9.99
-  marca_id: 1
+queso:
+  product: queso
+  quantity: 300
+  unit: gramos
+  price: 15.80
+  marca: tregar
+  compra: one
 
-two:
-  product_id: 1
+bananas:
+  product: bananas
   quantity: 1
-  unit_id: 1
-  price: 9.99
-  marca_id: 1
+  unit: kilogramos
+  price: 5.30
+  compra: one
