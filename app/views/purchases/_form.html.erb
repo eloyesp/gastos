@@ -1,5 +1,9 @@
 <%= semantic_form_for @purchase do |f| %>
   <%= f.semantic_errors %>
-  <%= f.inputs :price %>
+  <%= f.inputs do %>
+    <%= f.input :created_at, as: :date %>
+    <%= f.input :price %>
+  <% end %>
+  <%= f.buttons %>
 <% end %>
 
