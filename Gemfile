@@ -16,6 +16,7 @@ group :assets do
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
   gem 'jquery-rails'
+  gem "compass", ">= 0.12.alpha.2"
 end
 
 # To use debugger
